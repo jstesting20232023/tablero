@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Estilos para el diseño dividido -->
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            height: 100vh;
+        }
+
+        .half-screen {
+            width: 50%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        #tabata-container {
+            background-color: #f8f8f8; /* Fondo gris claro para el tabata timer */
+        }
+
+        #verb-container {
+            background-color: black; /* Fondo negro para el verbo del día */
+            color: #32CD32; /* Texto verde */
+            overflow: hidden;
+        }
+    </style>
+
+    <title>Proyectos Divididos</title>
+</head>
+<body>
+    <!-- Contenedor para el Tabata Timer -->
+    <div id="tabata-container" class="half-screen">
+        <iframe src="tabata.html" style="width: 100%; height: 100%; border: none;"></iframe>
+    </div>
+
+    <!-- Contenedor para el Verbo del Día -->
+    <div id="verb-container" class="half-screen">
+        <iframe src="verbos.html" style="width: 100%; height: 100%; border: none;"></iframe>
+    </div>
+</body>
+</html>

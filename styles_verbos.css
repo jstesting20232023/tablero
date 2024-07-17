@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black; /* Fondo negro */
+    color: #32CD32; /* Texto verde amigable a la vista */
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    width: 100%; /* Asegurar que el contenedor tome todo el ancho */
+}
+
+.day-of-week {
+    font-size: 0.5em;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.time-tense {
+    margin: 40px 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+div[id="conjugations"] {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
